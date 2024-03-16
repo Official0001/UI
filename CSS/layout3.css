@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal; 
+    font-optical-sizing: auto;
+}
+
+.wrapper{
+    width: 80%;
+    min-height: 200px;
+    border: 1px solid;
+    margin: auto;
+}
+
+.main-logo-menu{
+    width: 100%;
+    min-height: 60px;
+    background-color: #1F2544;
+
+}
+
+.main-logo-menu .logo{
+    width: 30%;
+    min-height: 60px;
+    border: 1px solid white;
+    float: left;
+}
+
+.main-logo-menu .menu{
+    width: 65%;
+    min-height: 60px;
+    border: 1px solid white;
+    float: right;
+}
+
+.slider{
+    width: 100%;
+    min-height: 300px;
+    background-color: ;
+    border: 1px solid black;;
+}
+
+.main-box .box{
+    width: 32%;
+    min-height: 290px;
+    background-color: ;
+    color: aliceblue;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: center;
+    line-height: 290px;
+
+}

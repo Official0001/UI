@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80%;
+    min-height: 150vh;
+    border: 1px solid #000;
+    margin: auto;
+}
+
+.head .div1{
+    height: 45px;
+    border: 1px solid #000;
+    background-color: grey;
+}
+
+
+.div1 h1{
+    font-size: x-large;
+    padding-top: 3px;
+    padding-left: 5px;
+}
+
+.head .div2{
+    height: 30px;
+    border: 1px solid #000;
+    background-color: #000;
+    padding: 5px;
+}
+
+.menu{
+    float: left;
+}
+
+.menu a{
+    text-decoration: none;
+    padding: 2px;
+    padding-left: 5px;
+    color: whitesmoke;
+}
+
+.menu a:hover{
+    background-color: grey;
+}
+.search{
+    float: right;
+}
+.search button a{
+    text-decoration: none;
+    color: black;
+}
+
+.container .middle .left{
+    width: 65%;
+    border: 1px solid #000;
+    float: left;
+    min-height: 80vh;
+}
+
+.content{
+    border: 1px solid #000;
+    margin: 4px;
+}
+
+.container .middle .left .content h2{
+
+    padding-left: 8px;
+    padding-top: 10px;
+    margin-bottom: 4px;
+}
+
+.container .middle .left .content p{
+    padding: 8px;
+    margin-bottom: 5px;
+    text-align: justify;
+}
+
+.main-button{
+    border: 1px solid #000;
+    width: 23%;
+    margin-bottom: 10px;
+    margin-left: 8px;
+    padding: auto;
+}
+
+.main-button .r a{
+    text-decoration: none;
+    /* font-size: small; */
+}
+.main-button .l{
+    float: left;
+}
+/* .main-button .r{
+    float: right;
+} */
+
+.heading {
+    width: 99%;
+    padding-left: 4px;
+}
+
+ .firstP{
+    width: 49%;
+    padding-left: 5px;
+    border: 1px solid #000;
+    margin-top: 10px;
+}
+
+
+.secondP{
+    width: 49%;
+    border: 1px solid #000;
+    padding-left: 5px;
+    float: right;
+    margin-top: -14%;
+}
+
+
+
+
+
+
+.container .middle .right{
+    width: 33%;
+    border: 1px solid #000;
+    float: right;
+    margin-top: 7px;
+    margin-right: 9px;
+    /* min-height: 100vh; */
+}
+
+.right h2{
+    margin-top: 2px;
+    padding-left: 5px;
+}
+
+.right h3{
+    margin-top: 5px;
+    padding-left: 5px;
+    margin-bottom: 8px;
+}
+
+.right .adv{
+    border: 2px solid #000;
+}
+
+.one,.two,.three,.four,.five,.six{
+    border: 1px solid #000;
+}
+
+.one{
+    float: left;
+    padding: 50px;
+    padding-right: 87px;
+    margin-left: 10px;
+}
+.two{
+    float: right;
+    padding: 50px;
+    padding-left: 87px;
+    margin-right: 10px;
+}
+
+.second{
+    margin-top: 140px;
+}
+
+.three{
+    float: left;
+    padding: 50px;
+    padding-right: 87px;
+    margin-left: 10px;
+}
+.four{
+    float: right;
+    padding: 50px;
+    padding-left: 87px;
+    margin-right: 10px;
+}
+
+.third{
+    margin-top: 274px;
+    padding-bottom: 10px;
+}
+.five{
+    float: left;
+    padding: 50px;
+    padding-right: 87px;
+    margin-left: 10px;
+}
+.six{
+    float: right;
+    padding: 50px;
+    padding-left: 87px;
+    margin-right: 10px;
+}
+
+.right h4{
+    margin-top: 115px;
+    padding: 10px;
+}
+
+.right ul{
+    margin-left: 24px;
+    margin-bottom:10px ;
+}

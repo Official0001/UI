@@ -1,0 +1,316 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+
+.main{
+	width: 80%;
+	min-height: 380vh;
+	border: 1px solid #000;
+	margin: auto;
+}
+
+.header{
+	border: 1px solid #000;
+	min-height: 8vh;
+}
+
+.logo{
+	float: left;
+	padding-left: 80px;
+	padding-top: 4px;
+}
+.logo h1{
+	font-weight: 600;
+}
+.logo span{
+	color: rgb(30, 196, 41);
+}
+
+.nav-bar{
+	float: right;
+	margin-right: 90px;
+	padding-top: 10px;
+}
+
+.nav-bar a{
+	text-decoration: none;
+	margin: 10px;
+	color: #000;
+}
+
+.nav-bar a:hover{
+	background-color: rgb(186, 75, 75);
+}
+
+.one{
+	border: 1px solid #000;
+	min-height: 93vh;
+}
+
+.o{
+	border: 1px solid #000;
+	height: 93vh;
+	background-image: url(../Images/image.jpg);
+	background-size: cover;
+}
+
+.o button{
+	margin-top: 10px;
+	width: 100px;
+	height: 30px;
+	background-color: rgb(186, 75, 75);
+}
+.o button a{
+	text-decoration: none;
+	color: aliceblue;
+}
+
+.h1{
+	padding-top: 120px;
+	font-size:xx-large;
+}
+.h2{
+	font-weight:230;
+	font-size:xx-large;
+}
+
+.tw{
+	border: 1px solid #000;
+	min-height: 50vh;
+	padding-top: 20px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+.tw h4{
+	text-align: center;
+}
+.tw p{
+	text-align:center;
+}
+
+.tw span img{
+	width: 48px;
+	height: 48px;
+	margin-left: 100px;
+}
+
+.t{
+	float: right;
+	width: 33.33%;
+	padding-top: 20px;
+	min-height: 30vh;
+	padding: 15px;
+}
+
+.tt{
+	float: left;
+	width: 33.33%;
+	padding-top: 20px;
+	min-height: 30vh;
+	padding: 15px;
+}
+
+.ttt{
+	float: left;
+	width: 33.33%;
+	padding-top: 20px;
+	min-height: 30vh;
+	padding: 15px;
+}
+
+.tw p{
+	padding-left: 10px;
+}
+
+.two{
+	padding-top: 40px;
+	width: 80%;
+	margin: auto;
+	border: 1px solid #000;
+	min-height: 125vh;
+}
+
+.two h2{
+	padding-bottom: 10px;
+}
+.two hr{
+	width: 20%;
+	margin: auto;
+	margin-bottom: 10px;
+}
+.two h2,p{
+	text-align: center;
+}
+
+.two img{
+	margin-top: 20px;
+	width: 100%;
+	min-height: 70vh;
+	background-size: cover;
+	/* padding-bottom: 20px; */
+	border: 1px solid #000;
+}
+
+
+.three{
+	width: 100%;
+	height: 90vh;
+	/* border: 2px solid #000; */
+	background-color:aliceblue;
+}
+
+.box{
+	padding-top: 40px;
+	border: 1px solid #000;
+	width: 80.5%;
+	height: 83vh;
+	margin: auto;
+}
+
+.b1{
+	width: 25%;
+	float: right;
+	height: 42vh;
+	border: 1px solid #000;
+	margin-bottom: 20px;
+}
+.b2{
+	width: 25%;
+	height: 42vh;
+	float: left;
+	border: 1px solid #000;
+	margin-bottom: 20px;
+}
+.b3{
+	width: 25%;
+	height: 42vh;
+	float: left;
+	border: 1px solid #000;
+	margin-bottom: 20px;
+}
+.b4{
+	width: 25%;
+	height: 42vh;
+	float: left;
+	border: 1px solid #000;
+	margin-bottom: 20px;
+}
+
+.b2{
+	padding-top: 15px;
+}
+.b4{
+	padding-top: 15px;
+}
+.b2 h3{
+	text-align: center;
+}
+.b4 h3{
+	text-align: center;
+}
+
+.box hr{
+	width: 35%;
+	margin-top: 7px;
+}
+
+.box p{
+	text-align:center;
+	padding-top: 7px;
+	padding-bottom: 10px;
+}
+
+.box button{
+	width: 110px;
+	height: 33px;
+	border-color: rgb(0, 242, 255);
+	background-color: aliceblue;
+}
+
+.box a{
+	text-decoration: none;
+	color: rgb(15, 198, 198);
+}
+
+.box h2{
+	text-align: center;
+	/* margin-top: 30px; */
+}
+
+.box hr{
+	width: 20%;
+	margin: auto;
+	margin-bottom: 10px;
+	color: rgb(15, 198, 198);
+}
+
+.footer{
+	width: 100%;
+	min-height: 28vh;
+	/* border: 3px solid #000; */
+	background-color: rgb(182, 213, 215);
+}
+
+.f{
+	width: 80%;
+	min-height: 25vh;
+	/* border: 1px solid #000; */
+	margin: auto;
+	background-color: rgb(182, 213, 215);
+	padding-top: 17px;
+}
+
+.f1{
+	width: 40%;
+	float: left;
+	/* border: 1px solid #000; */
+	height: 22vh;
+}
+.f1 p{
+	font-size: 12px;
+	text-align: left;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+.f2{
+	width: 20%;
+	float: left;
+	/* border: 1px solid #000; */
+	height: 22vh;
+	padding-left: 10px;
+}
+/* .f2 h5{
+	font-weight;
+} */
+
+.f3{
+	width: 20%;
+	float: left;
+	/* border: 1px solid #000; */
+	height: 22vh;
+	padding-left: 10px;
+}
+.f4{
+	width: 20%;
+	float: left;
+	/* border: 1px solid #000; */
+	height: 22vh;
+	padding-left: 4px;
+}
+h6{
+	font-weight: normal;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+h5{
+	padding-top: 10px;
+	font-weight: 650;
+}
+
+
+

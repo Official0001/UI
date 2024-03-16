@@ -1,0 +1,97 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+
+.container{
+	width: 90%;
+	height: 90vh;
+	border: 1px solid #000;
+	margin: auto;
+	margin-top: 20px;
+	box-shadow: 5px 10px 5px gray;
+}
+
+.first{
+	background-color: rgba(203, 203, 203, 0.92);
+	border: 1px solid #000;
+	min-height: 4vh;
+}
+
+.one{
+	float: left;
+	width: 3%;
+	border: 1px solid #000;
+	height: 3vh;
+}
+
+.three{
+	float: right;
+	width: 50%;
+	border: 1px solid #000;
+	margin-right: 230px;
+	height: 3vh;
+	margin-top: 2px;
+	background-color: whitesmoke;
+	font-size: smaller;
+	padding-left: 240px;
+}
+.two{
+	float: right;
+	width: 3%;
+	/* margin-right: 20%; */
+	border: 1px solid #000;
+}
+
+
+.second{
+
+}
+
+/* .second h3,h4{
+	font-weight: normal;
+	margin-left: 500px;
+	margin-top: 30px;
+} */
+
+h3{
+	font-weight: normal;
+	margin-left: 530px;
+	margin-top: 30px;
+}
+
+h4{
+	font-weight: normal;
+	margin-left: 480px;
+	margin-top: 30px;
+}
+
+
+.table{
+	margin-top: 20px;
+	width: 70%;
+	min-height: 55vh;
+}
+
+table,tr,th,td{
+	margin: auto;
+	border: 1px solid #000;
+	border-collapse: collapse;
+	text-align: center;
+	padding: 5px;
+}
+
+th{
+	background-color:blueviolet;
+	font-weight: 600;
+}
+button{
+	background-color: blueviolet;
+	width: 65px;
+}
+
+button:hover{
+	background-color:rgb(101, 159, 239);
+}
